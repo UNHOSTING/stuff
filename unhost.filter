@@ -1,4 +1,4 @@
-//Anirml's Loot filter //Updated for Patch 19 Zincite. Last updated 07-09-2020
+//UNHOST'S EDITED Anirml's Loot filter //Updated for Patch 19 Zincite. Last updated 07-09-2020
 //OBS autoupdate will remove any changes made to filter!
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
@@ -6,63 +6,63 @@
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<1000 CLVL<40]:
 ItemDisplay[GOLD<3000 (CLVL>39 AND CLVL<=69)]:
-ItemDisplay[GOLD<5000 CLVL>69]:
+ItemDisplay[GOLD<10000 CLVL>69]:
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE%JUV %WHITE%70%
+ItemDisplay[rvl]: %PURPLE%JUV %WHITE%70%%GREEN%+
 ItemDisplay[rvs]: %PURPLE%juv %WHITE%35%
 ItemDisplay[hp5]: %RED%!%WHITE%H%GREEN%+
 ItemDisplay[mp4]: %BLUE%!
 ItemDisplay[mp5]: %BLUE%!%WHITE%M%GREEN%+
-ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
-ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
-ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Heal
+ItemDisplay[hp2 CLVL<18]: %RED%!!%WHITE%Heal
+ItemDisplay[hp3 CLVL<24]: %RED%!!!%WHITE%Heal
 ItemDisplay[hp4 CLVL<60]: %RED%!%WHITE%H
 ItemDisplay[hp1 CLVL>14]:
 ItemDisplay[hp2 CLVL>17]:
 ItemDisplay[hp3 CLVL>23]:
 ItemDisplay[hp4 CLVL>59]:
-ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%Minor Mana
-ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%Light Mana
-ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
+ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%Mana
+ItemDisplay[mp2 CLVL<20]: %BLUE%!!%WHITE%Mana
+ItemDisplay[mp3 CLVL<26]: %BLUE%!!!%WHITE%Mana
 ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
 //Essences (Respec Token)
-ItemDisplay[tes]: %GOLD%Suffering [Andariel]
-ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
-ItemDisplay[bet]: %GOLD%Terror [Diablo]
-ItemDisplay[fed]: %GOLD%Destruction [Baal]
-ItemDisplay[toa]: %GOLD%Token of Absolution
+ItemDisplay[tes]: %GOLD%Suffering %WHITE%[%GREEN%Andariel%WHITE%]
+ItemDisplay[ceh]: %GOLD%Hatred %WHITE%[%GREEN%Mephisto%WHITE%]
+ItemDisplay[bet]: %GOLD%Terror %WHITE%[%GREEN%Diablo%WHITE%]
+ItemDisplay[fed]: %GOLD%Destruction %WHITE%[%GREEN%Baal%WHITE%]
+ItemDisplay[toa]: %GOLD%Token %WHITE%of %YELLOW%Absolution
 //PoD Items
 ItemDisplay[std]: %NAME%
-ItemDisplay[cx5]: %PURPLE%Orb of Corruption
+ItemDisplay[cx5]: %RED%¤%ORANGE%¤%YELLOW%¤%PURPLE% ORB %WHITE%OF %PURPLE%CORRUPTION %YELLOW%¤%ORANGE%¤%RED%¤
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
-ItemDisplay[cx7]: %PURPLE%¤¤¤ KEY OF CHAOS ¤¤¤
+ItemDisplay[cx7]: %WHITE%¤ %PURPLE%KEY OF CHAOS %WHITE%¤
 ItemDisplay[cx8]: %PURPLE%Enchantment Orb
-ItemDisplay[cx9]: %RED%%NAME%
-ItemDisplay[ma1]: %RED%%NAME%
-ItemDisplay[ma2]: %RED%%NAME%
-ItemDisplay[ma3]: %RED%%NAME%
-ItemDisplay[ma4]: %RED%%NAME%
-ItemDisplay[ma5]: %RED%%NAME%
-ItemDisplay[ma6]: %RED%%NAME%
-ItemDisplay[ma7]: %RED%%NAME%
-ItemDisplay[ma8]: %RED%%NAME%
-ItemDisplay[ma9]: %RED%%NAME%
-ItemDisplay[ma10]: %RED%%NAME%
-ItemDisplay[maz]: %RED%%NAME%
+ItemDisplay[cx9]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma1]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma2]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma3]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma4]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma5]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma6]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma7]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma8]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma9]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[ma10]: %WHITE%¤ %RED%%NAME% %WHITE%¤
+ItemDisplay[maz]: %WHITE%¤ %RED%%NAME% %WHITE%¤
 ItemDisplay[UNI !ID cm4]: %RED%  ¤ Horadrim Sigil ¤  %RED%
 //Wirt's Leg
-ItemDisplay[leg]: %NAME%
+ItemDisplay[leg]: %WHITE%¤ %RED%SECRET COW LEVEL BRANCH %WHITE%¤
 //Uber Keys
-ItemDisplay[pk1]: %ORANGE%Terror [Countess]
-ItemDisplay[pk2]: %ORANGE%Hate [Summoner]
-ItemDisplay[pk3]: %ORANGE%Destruction [Nihlathak]
-ItemDisplay[dhn]: %ORANGE%Diablo's Horn
-ItemDisplay[bey]: %ORANGE%Baal's Eye
-ItemDisplay[mbr]: %ORANGE%Mephisto's Brain
+ItemDisplay[pk1]: %ORANGE%Terror [%WHITE%Countess%ORANGE%]
+ItemDisplay[pk2]: %ORANGE%Hate [%WHITE%Summoner%ORANGE%]
+ItemDisplay[pk3]: %ORANGE%Destruction [%WHITE%Nihlathak%ORANGE%]
+ItemDisplay[dhn]: %ORANGE%Diablo's Horn %GREEN%!!!
+ItemDisplay[bey]: %ORANGE%Baal's Eye %GREEN%!!!
+ItemDisplay[mbr]: %ORANGE%Mephisto's Brain %GREEN%!!!
 //Ear
-ItemDisplay[ear]: %ORANGE%%NAME%
+ItemDisplay[ear]: %ORANGE%%NAME% %WHITE%GOTEEM
 
 //Utility
 ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
@@ -75,10 +75,10 @@ ItemDisplay[wms CLVL>59]:
 ItemDisplay[yps (CLVL<20 OR CLVL>79)]: %GREEN%!%WHITE%A
 ItemDisplay[yps (CLVL>19 AND CLVL<80)]:
 //Keys for Locked Chests
-ItemDisplay[key]: %GRAY%Key
+ItemDisplay[key]: %GRAY%K
 //Tomes
-ItemDisplay[tbk]: %WHITE%Tome of Town Portal
-ItemDisplay[ibk]: %WHITE%Tome of Identify
+ItemDisplay[tbk]: %BLUE%TP%WHITE% Tome
+ItemDisplay[ibk]: %RED%ID%WHITE% Tome
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
 ItemDisplay[gpm]:
 ItemDisplay[opm]:
@@ -86,7 +86,7 @@ ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
-ItemDisplay[vps CLVL<22]: %GREEN%!%WHITE%Stamina
+ItemDisplay[vps CLVL<22]: %GREEN%!%WHITE%STAM
 ItemDisplay[vps CLVL>21]:
 //Hide MAGIC Quivers & Bolts above level 40
 ItemDisplay[aq2 MAG ILVL>50]:
@@ -118,9 +118,9 @@ ItemDisplay[xyz]: %TAN%%NAME%
 //Vendor items
 //Value Vendor items
 //SK88=1 =32453 Gold. SK73=1 =32453 Gold.
-ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
-ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
-ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: Throw%ORANGE% ($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%($%PRICE%)
+ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %ORANGE%($%PRICE%)
 
 //All norm white items 1sox hidden
 ItemDisplay[NMAG SOCK=1 !leg]:
@@ -134,34 +134,34 @@ ItemDisplay[r04]: %TAN%Nef [%RUNENUM%] [B Gloves]
 ItemDisplay[r05]: %TAN%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r06]: %TAN%Ith [%RUNENUM%] [C Belt]
 ItemDisplay[r07]: %TAN%Tal [%RUNENUM%] [B Belt]
-ItemDisplay[r08]: %TAN%Ral [%RUNENUM%] [C Amulet]
+ItemDisplay[r08]: %TAN%Ral [%RUNENUM%] [C Amulet] %GREEN%!!!
 ItemDisplay[r09]: %TAN%Ort [%RUNENUM%] [HP Gloves]
 ItemDisplay[r10]: %TAN%Thul [%RUNENUM%] [S Amulet]
 ItemDisplay[r11]: %TAN%Amn [%RUNENUM%] [C Ring]
-ItemDisplay[r12]: %TAN%Sol [%RUNENUM%] [B Ring]
+ItemDisplay[r12]: %TAN%Sol [%RUNENUM%] [B Ring] %GREEN%!!!
 ItemDisplay[r13]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r14]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r15]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
 ItemDisplay[r16]: %TAN%%RUNENAME% [%RUNENUM%] 
 //17-23
-ItemDisplay[r17]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
-ItemDisplay[r18]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
-ItemDisplay[r19]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
-ItemDisplay[r20]: %PURPLE%  OO %RED%%RUNENAME%%PURPLE% OO [%RUNENUM%]  %RED%
-ItemDisplay[r21]: %PURPLE%  OOO %RED%%RUNENAME%%PURPLE% OOO [%RUNENUM%]  %RED%
-ItemDisplay[r22]: %PURPLE%  OOO %RED%%RUNENAME%%PURPLE% OOO [%RUNENUM%]  %RED%
-ItemDisplay[r23]: %PURPLE%  OOO %RED%%RUNENAME%%PURPLE% OOO [%RUNENUM%]  %RED%
+ItemDisplay[r17]: %WHITE%¤%ORANGE%   %RUNENAME% [%RUNENUM%]   %WHITE%¤%ORANGE%
+ItemDisplay[r18]: %WHITE%¤%ORANGE%   %RUNENAME% [%RUNENUM%]   %WHITE%¤%ORANGE%
+ItemDisplay[r19]: %WHITE%¤%ORANGE%   %RUNENAME% [%RUNENUM%]   %WHITE%¤%ORANGE%
+ItemDisplay[r20]: %PURPLE% ¤¤¤ %RED%%RUNENAME% %PURPLE%¤¤¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r21]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤ %RED%%RUNENAME% %YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r22]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤ %RED%%RUNENAME% %YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r23]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤ %RED%%RUNENAME% %YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
 //24-33
-ItemDisplay[r24]: %PURPLE% OOOO %RED%%RUNENAME%%PURPLE% OOOO [%RUNENUM%] %RED%
-ItemDisplay[r25]: %PURPLE% OOOO %RED%%RUNENAME%%PURPLE% OOOO [%RUNENUM%] %RED%
-ItemDisplay[r26]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO [%RUNENUM%] %RED%
-ItemDisplay[r27]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO [%RUNENUM%] %RED%
-ItemDisplay[r28]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO [%RUNENUM%] %RED%
-ItemDisplay[r29]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO [%RUNENUM%] %RED%
-ItemDisplay[r30]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO [%RUNENUM%] %RED%
-ItemDisplay[r31]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO [%RUNENUM%] %RED%
-ItemDisplay[r32]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO [%RUNENUM%] %RED%
-ItemDisplay[r33]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO [%RUNENUM%] %RED%
+ItemDisplay[r24]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤ %RED%%RUNENAME% %GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r25]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤ %RED%%RUNENAME% %GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r26]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤ %RED%%RUNENAME% %BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r27]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤ %RED%%RUNENAME% %WHITE%¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r28]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤¤¤ %RED%%RUNENAME% %WHITE%¤¤¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r29]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤¤¤ %RED%%RUNENAME% %WHITE%¤¤¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r31]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤¤¤%BLACK%¤¤¤ %RED%%RUNENAME% %BLACK%¤¤¤%WHITE%¤¤¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r31]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤¤¤%BLACK%¤¤¤ %RED%%RUNENAME% %BLACK%¤¤¤%WHITE%¤¤¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r32]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤ %RED%%RUNENAME% %BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
+ItemDisplay[r33]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤ %RED%%RUNENAME% %BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %GOLD%[%RUNENUM%]
 
 //Gems Chipped
 ItemDisplay[gcv CLVL<20]: chipped amethyst
