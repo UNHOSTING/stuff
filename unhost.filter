@@ -279,14 +279,14 @@ ItemDisplay[RARE !ID]:
 //CHARMS
 //Rerolling
 //Grand Charms
-ItemDisplay[MAG cm3 !ID ILVL>77]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
+ItemDisplay[MAG cm3 !ID ILVL>77]: %GREEN%¤ %YELLOW%Lg. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
 ItemDisplay[MAG cm3 ILVL>77]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %BLUE%¤ %NAME% %WHITE%[L%ILVL%]%BLUE% ¤
+ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %GREEN%¤ %YELLOW%Lg. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
 
 //Small Charms
-ItemDisplay[MAG cm1 !ID ILVL>89]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
-ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %BLUE%¤ %NAME% %WHITE%[L%ILVL%]%BLUE% ¤
-ItemDisplay[MAG cm1 !ID ILVL=47]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
+ItemDisplay[MAG cm1 !ID ILVL>89]: %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
+ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
+ItemDisplay[MAG cm1 !ID ILVL=47]: %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
 ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL>89]: %NAME% %ORANGE%[L%ILVL%]
 //
@@ -321,8 +321,8 @@ ItemDisplay[MAG rin ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
 ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Magic Jewels
-ItemDisplay[MAG !ID jew]: %BLUE% ¤ %NAME% ¤ %BLUE%
-ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
+ItemDisplay[MAG !ID jew]: %GOLD% ¤%YELLOW%¤%GOLD%¤ %ORANGE%%NAME% %GOLD%¤%YELLOW%¤%GOLD%¤
+ItemDisplay[MAG jew]: %GOLD% ¤%YELLOW%¤%GOLD%¤ %ORANGE%%NAME% %GOLD%¤%YELLOW%¤%GOLD%¤ %WHITE%[L%ILVL%]
 
 ////UNIQUE ITEMS////
 //
@@ -389,17 +389,17 @@ ItemDisplay[UNI !ID xrn !ETH]: %RED%Crown of Thieves
 //Crown of Thieves ETH
 ItemDisplay[UNI !ID xrn ETH]: %RED%ETH Crown of Thieves
 //Vampire Gaze
-ItemDisplay[UNI !ID xh9 !ETH]: %RED%O %PURPLE%Vampire Gaze %RED%O
+ItemDisplay[UNI !ID xh9 !ETH]: %RED%O %PURPLE%Vampire Gaze %RED%O %GREEN%!!!
 //Vampire Gaze ETH
-ItemDisplay[UNI !ID xh9 ETH]: %RED%O %PURPLE%ETH Vampire Gaze %RED%O
+ItemDisplay[UNI !ID xh9 ETH]: %RED%O %PURPLE% Vampire Gaze %RED%O %GREEN%ETH LOL
 //Shako
-ItemDisplay[UNI !ID uap !ETH]: %RED%O %PURPLE%Shako %RED%O
+ItemDisplay[UNI !ID uap !ETH]: %RED%O %PURPLE%Shako %RED%O %GREEN%!!!
 //Shako ETH
-ItemDisplay[UNI !ID uap ETH]: %RED%O ETH Shako %RED%O
+ItemDisplay[UNI !ID uap ETH]: %RED%O %PURPLE%Shako %RED%O %GREEN%ETH LOL
 //Steel Shade
-ItemDisplay[UNI !ID ulm !ETH]: %RED%O %PURPLE%Steel Shade %RED%O
+ItemDisplay[UNI !ID ulm !ETH]: %RED%O %PURPLE%Steel Shade %RED%O %GREEN%!!!
 //Steel Shade ETH
-ItemDisplay[UNI !ID ulm ETH]: %RED%O %PURPLE%ETH Steel Shade %RED%O
+ItemDisplay[UNI !ID ulm ETH]: %RED%O %PURPLE%Steel Shade %RED%O %GREEN%ETH!
 //Veil of Steel or Nightwing's Veil
 ItemDisplay[UNI !ID uhm !ETH]: %RED%O Veil of Steel or Nightwing's Veil %RED%O
 //ETH Veil of Steel or ETH Nightwing's Veil
@@ -409,7 +409,7 @@ ItemDisplay[UNI !ID usk !ETH]: %RED%O %PURPLE%Andariel's Visage %RED%O
 //Andariel's Visage ETH
 ItemDisplay[UNI !ID usk ETH]: %RED%O ETH Andariel's Visage %RED%O
 //Crown of Ages
-ItemDisplay[UNI !ID urn !ETH]: %RED%O Crown of Ages %RED%O
+ItemDisplay[UNI !ID urn !ETH]: %RED%O Crown of Ages %RED%O %GREEN%!!!
 //Crown of Ages ETH
 ItemDisplay[UNI !ID urn ETH]: %RED%O %PURPLE%ETH Crown of Ages %RED%O
 //Giant Skull
@@ -417,9 +417,9 @@ ItemDisplay[UNI !ID uh9 !ETH]: %RED%Giant Skull
 //Giant Skull ETH
 ItemDisplay[UNI !ID uh9 ETH]: %TAN%ETH Giant Skull
 //Griffon's Eye
-ItemDisplay[UNI !ID ci3 !ETH]: %RED%O %PURPLE%Griffon's Eye %RED%O
+ItemDisplay[UNI !ID ci3 !ETH]: %RED%O %PURPLE%Griffon's Eye %RED%O %GREEN%!!!
 //Griffon's Eye ETH
-ItemDisplay[UNI !ID ci3 ETH]: %RED%O ETH Griffon's Eye O
+ItemDisplay[UNI !ID ci3 ETH]: %RED%O ETH Griffon's Eye O %GREEN%ETH LOL
 //Kira's Guardian
 ItemDisplay[UNI !ID ci2 !ETH]: %RED%Kira's Guardian
 //Kira's Guardian ETH
@@ -568,8 +568,8 @@ ItemDisplay[UNI !ID uul !ETH]: %TAN%Steel Carapace
 //Steel Carapace
 ItemDisplay[UNI !ID uul ETH]: %RED%ETH Steel Carapace
 //Tyrael's Might or Templar's Might
-ItemDisplay[UNI !ID uar !ETH]: %RED%O %PURPLE%Tyrael's or Templar's Might %RED%O
-ItemDisplay[UNI !ID uar ETH]: %RED%O %PURPLE%ETH Tyrael's or Templar's Might %RED%O
+ItemDisplay[UNI !ID uar !ETH]: %RED%O %PURPLE%Tyrael's or Templar's Might %RED%O %GREEN%!!! GOOD FUCKING LUCK
+ItemDisplay[UNI !ID uar ETH]: %RED%O %PURPLE%ETH Tyrael's or Templar's Might %RED%O %GREEN%!!! GOOD FUCKING LUCK
 
 ////Unique Shields
 //
@@ -582,9 +582,9 @@ ItemDisplay[UNI !ID sml !ETH]: %TAN%Umbral Disk
 //Umbral Disk
 ItemDisplay[UNI !ID sml ETH]: %TAN%ETH Umbral Disk
 //Stormguild
-ItemDisplay[UNI !ID lrg !ETH]: %TAN%Stormguild
+ItemDisplay[UNI !ID lrg !ETH]: %TAN%Stormguild, NOT STORMSHIELD
 //Stormguild
-ItemDisplay[UNI !ID lrg ETH]: %TAN%ETH Stormguild
+ItemDisplay[UNI !ID lrg ETH]: %TAN%ETH Stormguild, NOT STORMSHIELD %GREEN%ETH LOL
 //Steelclash
 ItemDisplay[UNI !ID kit !ETH]: %TAN%Steelclash
 //Steelclash
@@ -642,9 +642,9 @@ ItemDisplay[UNI !ID uml !ETH]: %TAN%Blackoak Shield
 //Blackoak Shield
 ItemDisplay[UNI !ID uml ETH]: %RED%ETH Blackoak Shield
 //Stormshield
-ItemDisplay[UNI !ID uit !ETH]: %RED%O %PURPLE%Stormshield %RED%O
+ItemDisplay[UNI !ID uit !ETH]: %RED%O %PURPLE%Stormshield %RED%O %GREEN%!!!
 //Stormshield
-ItemDisplay[UNI !ID uit ETH]: %RED%O %PURPLE%ETH Stormshield %RED%O
+ItemDisplay[UNI !ID uit ETH]: %RED%O %PURPLE%ETH Stormshield %RED%O %GREEN%ETH LOL
 //Spike Thorn
 ItemDisplay[UNI !ID upk !ETH]: %TAN%Spike Thorn
 //Spike Thorn
@@ -707,7 +707,7 @@ ItemDisplay[UNI !ID xhg ETH]: %TAN%ETH Hellmouth
 //Dracul's Grasp
 ItemDisplay[UNI !ID uvg !ETH]: %RED%O %PURPLE%Dracul's Grasp %RED%O
 //Dracul's Grasp
-ItemDisplay[UNI !ID uvg ETH]: %TAN%ETH Dracul's Grasp
+ItemDisplay[UNI !ID uvg ETH]: %TAN%ETH Dracul's Grasp %GREEN%LOL
 //Soul Drainer
 ItemDisplay[UNI !ID umg !ETH]: %RED%O Soul Drainer %RED%O
 //Soul Drainer
@@ -752,9 +752,9 @@ ItemDisplay[UNI !ID xmb !ETH]: %RED%O Silkweave %RED%O
 //Silkweave
 ItemDisplay[UNI !ID xmb ETH]: %TAN%ETH Silkweave
 //War Traveler
-ItemDisplay[UNI !ID xtb !ETH]: %RED%O %PURPLE%War Traveler %RED%O
+ItemDisplay[UNI !ID xtb !ETH]: %RED%O %PURPLE%War Traveler %RED%O %GREEN%!!!
 //War Traveler
-ItemDisplay[UNI !ID xtb ETH]: %RED%ETH War Traveler
+ItemDisplay[UNI !ID xtb ETH]: %RED%ETH War Traveler %GREEN%LOL OUCH
 //Gore Rider
 ItemDisplay[UNI !ID xhb !ETH]: %RED%O %PURPLE%Gore Rider %RED%O
 //Gore Rider
@@ -815,15 +815,15 @@ ItemDisplay[UNI !ID zhb !ETH]: %RED%O %PURPLE%Thundergod's Vigor %RED%O
 //Thundergod's Vigor
 ItemDisplay[UNI !ID zhb ETH]: %RED%ETH Thundergod's Vigor
 //Arachnid Mesh
-ItemDisplay[UNI !ID ulc !ETH]: %RED%O %PURPLE%Arachnid Mesh %RED%O
+ItemDisplay[UNI !ID ulc !ETH]: %RED%O %PURPLE%Arachnid Mesh %RED%O %GREEN%!!!
 //Arachnid Mesh
-ItemDisplay[UNI !ID ulc ETH]: %RED%ETH Arachnid Mesh
+ItemDisplay[UNI !ID ulc ETH]: %RED%ETH Arachnid Mesh %GREEN%LOL
 //Nosferatu's Coil
 ItemDisplay[UNI !ID uvc !ETH]: %RED%O Nosferatu's Coil %RED%O
 //Nosferatu's Coil
 ItemDisplay[UNI !ID uvc ETH]: %TAN%ETH Nosferatu's Coil
 //Verdungo's Hearty Cord
-ItemDisplay[UNI !ID umc !ETH]: %RED%O %PURPLE%Verdungo's Hearty Cord %RED%O
+ItemDisplay[UNI !ID umc !ETH]: %RED%O %PURPLE%Verdungo's Hearty Cord %RED%O %GREEN%!!!
 //Verdungo's Hearty Cord
 ItemDisplay[UNI !ID umc ETH]: %RED%ETH Verdungo's Hearty Cord
 
@@ -924,7 +924,7 @@ ItemDisplay[UNI !ID 7mp !ETH]: %TAN%Cranebeak
 //Cranebeak
 ItemDisplay[UNI !ID 7mp ETH]: %TAN%ETH Cranebeak
 //Death Cleaver
-ItemDisplay[UNI !ID 7wa !ETH]: %RED%O Death Cleaver %RED%O
+ItemDisplay[UNI !ID 7wa !ETH]: %RED%O Death Cleaver %RED%O %GREEN%!!!
 //Death Cleaver
 ItemDisplay[UNI !ID 7wa ETH]: %RED%ETH Death Cleaver
 //Ethereal Edge (always Eth)
@@ -965,23 +965,23 @@ ItemDisplay[UNI !ID 8sb]: %TAN%Skystrike
 //Riphook
 ItemDisplay[UNI !ID 8hb]: %TAN%Riphook
 //Kuko Shakaku
-ItemDisplay[UNI !ID 8lb]: %RED%Kuko Shakaku
+ItemDisplay[UNI !ID 8lb]: %TAN%Kuko Shakaku
 //Endlesshail
 ItemDisplay[UNI !ID 8cb]: %TAN%Endlesshail
 //Witchwild String
-ItemDisplay[UNI !ID 8s8]: %RED%Witchwild String
+ItemDisplay[UNI !ID 8s8]: %TAN%Witchwild String
 //Cliffkiller
 ItemDisplay[UNI !ID 8l8]: %TAN%Cliffkiller
 //Magewrath
-ItemDisplay[UNI !ID 8sw]: %RED%Magewrath
+ItemDisplay[UNI !ID 8sw]: %TAN%Magewrath
 //Goldstrike Arch
-ItemDisplay[UNI !ID 8lw]: %RED%O Goldstrike Arch %RED%O
+ItemDisplay[UNI !ID 8lw]: %TAN%Goldstrike Arch
 //Eaglehorn
 ItemDisplay[UNI !ID 6l7]: %RED%Eaglehorn
 //Widowmaker
 ItemDisplay[UNI !ID 6sw]: %RED%Widowmaker
 //Windforce
-ItemDisplay[UNI !ID 6lw]: %RED%O %PURPLE%Windforce %RED%O
+ItemDisplay[UNI !ID 6lw]: %RED%O %PURPLE%Windforce %RED%O %GREEN%!!!
 
 ////Unique Crossbows
 //
@@ -992,7 +992,7 @@ ItemDisplay[UNI !ID mxb]: %TAN%Ichorsting
 //Hellcast
 ItemDisplay[UNI !ID hxb]: %TAN%Hellcast
 //Doomslinger
-ItemDisplay[UNI !ID rxb]: %RED%O Doomslinger %RED%O
+ItemDisplay[UNI !ID rxb]: %RED%O Doomslinger %RED%O %GREEN%UP IT & SLAM
 //Langer Briser
 ItemDisplay[UNI !ID 8lx]: %TAN%Langer Briser
 //Pus Spitter
@@ -1487,7 +1487,7 @@ ItemDisplay[UNI !ID 7b7 !ETH]: %RED%O Doombringer %RED%O
 //ETH Doombringer
 ItemDisplay[UNI !ID 7b7 ETH]: %RED%O %PURPLE%ETH Doombringer %RED%O
 //The Grandfather
-ItemDisplay[UNI !ID 7gd !ETH]: %RED%O The Grandfather %RED%O
+ItemDisplay[UNI !ID 7gd !ETH]: %RED%O The Grandfather %RED%O %GREEN%!!!
 //ETH The Grandfather
 ItemDisplay[UNI !ID 7gd ETH]: %RED%O ETH The Grandfather %RED%O
 
@@ -1530,9 +1530,9 @@ ItemDisplay[UNI !ID 7bw !ETH]: %RED%Boneshade
 //Boneshade (can get +7 Teeth +7 Bone Armor)
 ItemDisplay[UNI !ID 7bw ETH]: %RED%ETH Boneshade
 //Death's Web (-40 to -50 to enemy poison res)
-ItemDisplay[UNI !ID 7gw !ETH]: %RED%O %PURPLE%Death's Web %RED%O
+ItemDisplay[UNI !ID 7gw !ETH]: %RED%O %PURPLE%Death's Web %RED%O %GREEN%!!!
 //Death's Web (-40 to -50 to enemy poison res)
-ItemDisplay[UNI !ID 7gw ETH]: %RED%O ETH Death's Web %RED%O
+ItemDisplay[UNI !ID 7gw ETH]: %RED%O ETH Death's Web %RED%O %GREEN%!?!
 
 ////Unique Throwing Weapons
 //
@@ -1545,9 +1545,9 @@ ItemDisplay[UNI !ID 9ta !ETH]: %TAN%The Scalper
 //ETH The Scalper
 ItemDisplay[UNI !ID 9ta ETH]: %RED%O ETH The Scalper %RED%O
 //Warshrike
-ItemDisplay[UNI !ID 7bk !ETH]: %RED%O Warshrike %RED%O
+ItemDisplay[UNI !ID 7bk !ETH]: %RED%O Warshrike %RED%O %GREEN%!!!
 //ETH Warshrike
-ItemDisplay[UNI !ID 7bk ETH]: %RED%O %PURPLE%ETH Warshrike %RED%O
+ItemDisplay[UNI !ID 7bk ETH]: %RED%O %PURPLE%ETH Warshrike %RED%O %GREEN%!!!
 //Gimmershred
 ItemDisplay[UNI !ID 7ta !ETH]: %RED%Gimmershred
 //ETH Gimmershred
@@ -1583,11 +1583,11 @@ ItemDisplay[UNI !ID am9 ETH]: %RED%ETH Lycander's Flank
 //Lycander's Aim
 ItemDisplay[UNI !ID am7]: %RED%Lycander's Aim
 //Titan's Revenge
-ItemDisplay[UNI !ID ama !ETH]: %RED%O Titan's Revenge %RED%O
+ItemDisplay[UNI !ID ama !ETH]: %RED%O Titan's Revenge %RED%O %GREEN%!
 //Titan's Revenge
-ItemDisplay[UNI !ID ama ETH]: %RED%O ETH Titan's Revenge %RED%O
+ItemDisplay[UNI !ID ama ETH]: %RED%O ETH Titan's Revenge %RED%O %GREEN%!!!
 //Thunderstroke
-ItemDisplay[UNI !ID amf !ETH]: %RED%O Thunderstroke %RED%O
+ItemDisplay[UNI !ID amf !ETH]: %RED%O Thunderstroke %RED%O %GREEN%!!!
 //Thunderstroke
 ItemDisplay[UNI !ID amf ETH]: %TAN%ETH Thunderstroke
 //Blood Raven's Charge (got lvl 5 revive (30charges))
@@ -1613,7 +1613,7 @@ ItemDisplay[UNI !ID 7lw ETH]: %TAN%ETH Firelizard's Talons
 ////Unique Necromancer only items
 //
 //Homunculus
-ItemDisplay[UNI !ID nea !ETH]: %RED%O %PURPLE%Homunculus %RED%O
+ItemDisplay[UNI !ID nea !ETH]: %RED%O %PURPLE%Homunculus %RED%O %GREEN%!!!
 //Homunculus
 ItemDisplay[UNI !ID nea ETH]: %RED%ETH Homunculus
 //Darkforce Spawn
@@ -1628,11 +1628,11 @@ ItemDisplay[UNI !ID nee ETH]: %TAN%ETH Boneflame
 ////Unique Barbarian only items
 //
 //Arreat's Face
-ItemDisplay[UNI !ID baa !ETH]: %RED%O %PURPLE%Arreat's Face %RED%O
+ItemDisplay[UNI !ID baa !ETH]: %RED%O %PURPLE%Arreat's Face %RED%O %GREEN%!!!
 //Arreat's Face
 ItemDisplay[UNI !ID baa ETH]: %RED%ETH Arreat's Face
 //Wolfhowl (for bear/werewolf barb)
-ItemDisplay[UNI !ID bac !ETH]: %RED%O Wolfhowl %RED%O
+ItemDisplay[UNI !ID bac !ETH]: %RED%O Wolfhowl %RED%O %GREEN%!!!
 //Wolfhowl (for bear/werewolf barb)
 ItemDisplay[UNI !ID bac ETH]: %RED%ETH Wolfhowl
 //Demonhorn's Edge
@@ -1655,14 +1655,14 @@ ItemDisplay[UNI !ID obc !ETH]: %RED%O Eschuta's Temper %RED%O
 //Eschuta's Temper
 ItemDisplay[UNI !ID obc ETH]: %RED%ETH Eschuta's Temper
 //Death's Fathom
-ItemDisplay[UNI !ID obf !ETH]: %RED%O Death's Fathom %RED%O
+ItemDisplay[UNI !ID obf !ETH]: %RED%O Death's Fathom %RED%O %GREEN%!!!
 //Death's Fathom
 ItemDisplay[UNI !ID obf ETH]: %RED%ETH Death's Fathom
 
 ////Unique Druid only items
 //
 //Jalal's Mane
-ItemDisplay[UNI !ID dra !ETH]: %RED%O %PURPLE%Jalal's Mane %RED%O
+ItemDisplay[UNI !ID dra !ETH]: %RED%O %PURPLE%Jalal's Mane %RED%O %GREEN%!!!
 //Jalal's Mane
 ItemDisplay[UNI !ID dra ETH]: %RED%ETH Jalal's Mane
 //Cerebus' Bite
@@ -1685,7 +1685,7 @@ ItemDisplay[UNI !ID pac !ETH]: %RED%O Alma Negra %RED%O
 //Alma Negra
 ItemDisplay[UNI !ID pac ETH]: %RED%ETH Alma Negra
 //Herald of Zakarum
-ItemDisplay[UNI !ID pa9 !ETH]: %RED%O %PURPLE%Herald of Zakarum %RED%O
+ItemDisplay[UNI !ID pa9 !ETH]: %RED%O %PURPLE%Herald of Zakarum %RED%O %GREEN%!!!
 //Herald of Zakarum
 ItemDisplay[UNI !ID pa9 ETH]: %RED%ETH Herald of Zakarum
 //Dragonscale (Hydra paladin)
