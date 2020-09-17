@@ -10,9 +10,9 @@ ItemDisplay[GOLD<10000 CLVL>69]:
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%JUV %WHITE%70%%GREEN%+
 ItemDisplay[rvs]: %PURPLE%juv %WHITE%35%
-ItemDisplay[hp5]: %RED%!%WHITE%H%GREEN%+
+ItemDisplay[hp5]: %RED%!%WHITE%H%DGREEN%+
 ItemDisplay[mp4]: %BLUE%!
-ItemDisplay[mp5]: %BLUE%!%WHITE%M%GREEN%+
+ItemDisplay[mp5]: %BLUE%!%WHITE%M%DGREEN%+
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Heal
 ItemDisplay[hp2 CLVL<18]: %RED%!!%WHITE%Heal
 ItemDisplay[hp3 CLVL<24]: %RED%!!!%WHITE%Heal
@@ -236,9 +236,9 @@ ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE% ¤ %YELLOW%ETH %NAME% %PURPLE%¤ %PURPLE
 
 ItemDisplay[INF !RW !WP12 !CL4 !CL6 !leg]:
 
-ItemDisplay[RARE amu !ID]: %PURPLE% ¤ %YELLOW%%NAME% %PURPLE%¤ %PURPLE%
-ItemDisplay[RARE rin !ID]: %PURPLE% ¤ %YELLOW%%NAME% %PURPLE%¤ %PURPLE%
-ItemDisplay[RARE jew !ID]: %PURPLE% ¤ %YELLOW%%NAME% %PURPLE%¤ %PURPLE%
+ItemDisplay[RARE amu !ID]: %GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %YELLOW%%NAME% %PURPLE%¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤
+ItemDisplay[RARE rin !ID]: %GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %YELLOW%%NAME% %PURPLE%¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤
+ItemDisplay[RARE jew !ID]: %GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %YELLOW%%NAME% %PURPLE%¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤
 //RARES (All elite rares exept dagger and xbow)
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) ETH !ID]: ETH %YELLOW%%NAME%
@@ -321,8 +321,8 @@ ItemDisplay[MAG rin ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
 ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Magic Jewels
-ItemDisplay[MAG !ID jew]: %GOLD%× %BLUE%NAME %GOLD%×
-ItemDisplay[MAG jew]: %GOLD%×%YELLOW%×%WHITE%× %GREEN%J%DGREEN%E%GREEN%W%DGREEN%E%GREEN%L %WHITE%×%YELLOW%×%GOLD%×
+ItemDisplay[MAG !ID jew]: %GOLD%×%YELLOW%×%WHITE%× %GREEN%J%DGREEN%E%GREEN%W%DGREEN%E%GREEN%L %WHITE%×%YELLOW%×%GOLD%×
+ItemDisplay[MAG jew]: %GOLD%× %BLUE%%NAME% %GOLD%×
 
 ////UNIQUE ITEMS////
 //
@@ -2018,11 +2018,11 @@ ItemDisplay[SET !ID upl]: %RED%¤ %GREEN%%NAME% %DGREEN%Sazabi's %RED%¤
 //Tal Rasha's Wrappings
 //
 //Tal Rasha's Lidless Eye
-ItemDisplay[SET !ID oba]: %RED%O %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%O
+ItemDisplay[SET !ID oba]: %RED%O %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%O %GREEN%!!!
 //Tal Rasha's Horadric Crest
 ItemDisplay[SET !ID xsk]: %RED%O %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%O
 //Tal Rasha's Guardianship
-ItemDisplay[SET !ID uth]: %PURPLE%O %GREEN%%NAME% %DGREEN%Tal Rasha's %PURPLE%O
+ItemDisplay[SET !ID uth]: %PURPLE%O %GREEN%%NAME% %DGREEN%Tal Rasha's %PURPLE%O %GREEN%!!!
 //Tal Rasha's Fine-Spun Cloth
 ItemDisplay[SET !ID zmb]: %RED%O %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%O
 
@@ -2062,79 +2062,79 @@ ItemDisplay[SET]: %NAME%
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
 //Heavy Gloves
-ItemDisplay[MAG vgl ILVL=85]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=86]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=87]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=88]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=89]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=90]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
+ItemDisplay[MAG vgl ILVL=85]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG vgl ILVL=86]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG vgl ILVL=87]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG vgl ILVL=88]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG vgl ILVL=89]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG vgl ILVL=90]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
 //Sharkskin & Vampirebone Gloves
-ItemDisplay[MAG xvg ILVL=85]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=86]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=87]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=88]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=89]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=90]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=91]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=92]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=85]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=86]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=87]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=88]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=89]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=90]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=91]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=92]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG (xvg OR uvg) ILVL=95]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
+ItemDisplay[MAG xvg ILVL=85]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xvg ILVL=86]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xvg ILVL=87]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xvg ILVL=88]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xvg ILVL=89]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xvg ILVL=90]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xvg ILVL=91]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xvg ILVL=92]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvg ILVL=85]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvg ILVL=86]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvg ILVL=87]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvg ILVL=88]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvg ILVL=89]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvg ILVL=90]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvg ILVL=91]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvg ILVL=92]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG (xvg OR uvg) ILVL=95]: %ORANGE%B.GLOVE%WHITE% [L%ILVL%]
 
 //Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
 //Chain Gloves
-ItemDisplay[MAG mgl ILVL=85]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG mgl ILVL=86]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG mgl ILVL=87]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
+ItemDisplay[MAG mgl ILVL=85]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG mgl ILVL=86]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG mgl ILVL=87]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
 //Heavy Bracers & Vambraces
-ItemDisplay[MAG xmg ILVL=85]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=86]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=87]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=88]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=89]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=90]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=91]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=92]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=85]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=86]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=87]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=88]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=89]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=90]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=91]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=92]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG (xmg OR umg) ILVL=95]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
+ItemDisplay[MAG xmg ILVL=85]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xmg ILVL=86]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xmg ILVL=87]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xmg ILVL=88]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xmg ILVL=89]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xmg ILVL=90]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xmg ILVL=91]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG xmg ILVL=92]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG umg ILVL=85]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG umg ILVL=86]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG umg ILVL=87]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG umg ILVL=88]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG umg ILVL=89]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG umg ILVL=90]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG umg ILVL=91]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG umg ILVL=92]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
+ItemDisplay[MAG (xmg OR umg) ILVL=95]: %ORANGE%HP.GLOVE%WHITE% [L%ILVL%]
 //
 
 //BELTS
 //Exceptional and Elite Quality belts ONLY
 //Caster Belts (Vampirefang/Sharkskin) + ITH + AMETHYST + JEWEL
-ItemDisplay[MAG uvc ILVL>84]: %ORANGE%Caster Belt%WHITE% [L%ILVL%]
-ItemDisplay[MAG zvb ILVL>84]: %ORANGE%Caster Belt%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvc ILVL>84]: %ORANGE%C.BELT%WHITE% [L%ILVL%]
+ItemDisplay[MAG zvb ILVL>84]: %ORANGE%C.BELT%WHITE% [L%ILVL%]
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
-ItemDisplay[MAG umc ILVL>84]: %ORANGE%Blood Belt%WHITE% [L%ILVL%]
-ItemDisplay[MAG zmb ILVL>84]: %ORANGE%Blood Belt%WHITE% [L%ILVL%]
+ItemDisplay[MAG umc ILVL>84]: %ORANGE%B.BELT%WHITE% [L%ILVL%]
+ItemDisplay[MAG zmb ILVL>84]: %ORANGE%B.BELT%WHITE% [L%ILVL%]
 
 //BOOTS
 //Caster Boots + Thul + Amethyst + Jewel
 //Wyrmhide Boots
-ItemDisplay[MAG ulb ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]
+ItemDisplay[MAG ulb ILVL>84]: %ORANGE%C.BOOT%WHITE% [L%ILVL%]
 //Demonhide Boots
-ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]
+ItemDisplay[MAG xlb ILVL>84]: %ORANGE%C.BOOT%WHITE% [L%ILVL%]
 //Boots
-ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]
+ItemDisplay[MAG lbt ILVL>84]: %ORANGE%C.BOOT%WHITE% [L%ILVL%]
 
 //HELMS
 //Blood Helm + Ral + RUBY + Jewel
-ItemDisplay[MAG hlm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]
-ItemDisplay[MAG xlm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]
-ItemDisplay[MAG ulm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]
+ItemDisplay[MAG hlm ILVL>82]: %ORANGE%B.HELM%WHITE% [L%ILVL%]
+ItemDisplay[MAG xlm ILVL>82]: %ORANGE%B.HELM%WHITE% [L%ILVL%]
+ItemDisplay[MAG ulm ILVL>82]: %ORANGE%B.HELM%WHITE% [L%ILVL%]
 //
 
 //Runewords
@@ -2698,14 +2698,14 @@ ItemDisplay[crs !ETH NMAG SOCK=5]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[crs !ETH NMAG SOCK>2]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[crs ETH NMAG (SOCK=4 OR SOCK=5)]: %DGREEN%ETH %NAME% %GRAY%[%SOCKETS%]
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[crs !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
+ItemDisplay[crs !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (LARZUK 4O'S) %WHITE%[L%ILVL%]
 ItemDisplay[crs !ETH !RW NMAG ED=15 (SOCK=0 OR SOCK=2)]: %NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
 //Broad Sword - spirit (bad range adder 0)
 ItemDisplay[bsd CLVL<55 !ETH NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[bsd CLVL>54 !ETH NMAG SOCK=4]:
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[bsd !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
+ItemDisplay[bsd !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (LARZUK 4O'S) %WHITE%[L%ILVL%]
 ItemDisplay[bsd !ETH !RW NMAG ED=15 !SOCK=1 ILVL<55]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
 //Long Sword - spirit
@@ -2713,7 +2713,7 @@ ItemDisplay[lsd ETH NMAG SOCK=3]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[lsd CLVL<55 !ETH NMAG SOCK=4]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[lsd CLVL>54 !ETH NMAG SOCK=4]:
 //Larzuk Gaurantee = SPIRIT
-//ItemDisplay[lsd NMAG !ETH !RW SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
+//ItemDisplay[lsd NMAG !ETH !RW SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME%%WHITE% (LARZUK 40'S) %WHITE%[L%ILVL%]
 ItemDisplay[lsd !ETH !RW NMAG ED=15 !SOCK=1 ILVL<55]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
 //War Sword
