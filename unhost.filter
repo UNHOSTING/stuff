@@ -215,15 +215,15 @@ ItemDisplay[glg]: %ORANGE%Emerald
 ItemDisplay[glr]: %ORANGE%Ruby
 ItemDisplay[glb]: %ORANGE%Sapphire
 ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: %ORANGE%Skull
+ItemDisplay[skl]: %GREEN%►%ORANGE%Skull
 //Gems Perfect
-ItemDisplay[gpv]: %ORANGE%P %PURPLE%AMETHYST
-ItemDisplay[gpw]: %ORANGE%P %WHITE%DIAMOND
-ItemDisplay[gpg]: %ORANGE%P %GREEN%EMERALD
-ItemDisplay[gpr]: %ORANGE%P %RED%RUBY
-ItemDisplay[gpb]: %ORANGE%P %BLUE%SAPPHIRE
-ItemDisplay[gpy]: %ORANGE%P %YELLOW%TOPAZ
-ItemDisplay[skz]: %ORANGE%P %TAN%SKULL
+ItemDisplay[gpv]: %ORANGE%PERFECT %PURPLE%AMETHYST
+ItemDisplay[gpw]: %ORANGE%PERFECT %WHITE%DIAMOND
+ItemDisplay[gpg]: %ORANGE%PERFECT %GREEN%EMERALD
+ItemDisplay[gpr]: %ORANGE%PERFECT %RED%RUBY
+ItemDisplay[gpb]: %ORANGE%PERFECT %BLUE%SAPPHIRE
+ItemDisplay[gpy]: %ORANGE%PERFECT %YELLOW%TOPAZ
+ItemDisplay[skz]: %ORANGE%PERFECT %TAN%SKULL
 
 //***Your own custom items here***
 
