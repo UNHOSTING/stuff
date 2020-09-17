@@ -209,13 +209,13 @@ ItemDisplay[gsb CLVL>39]:
 ItemDisplay[gsy CLVL>39]:
 ItemDisplay[sku CLVL>39]:
 //Gems flawless
-ItemDisplay[gzv]: %ORANGE%Amethyst
-ItemDisplay[glw]: %ORANGE%Diamond
-ItemDisplay[glg]: %ORANGE%Emerald
-ItemDisplay[glr]: %ORANGE%Ruby
-ItemDisplay[glb]: %ORANGE%Sapphire
-ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: %GREEN%X►☺♣☼■§█▄▀¤×ΩΘ≈√%ORANGE%Skull
+ItemDisplay[gzv]: %GREEN%§§ %ORANGE%F.AMETHYST %PURPLE%×
+ItemDisplay[glw]: %ORANGE%F.DIAMOND %WHITE%×
+ItemDisplay[glg]: %ORANGE%F.EMERALD %GREEN%×
+ItemDisplay[glr]: %GREEN%§§ %ORANGE%F.RUBY %RED%×
+ItemDisplay[glb]: %ORANGE%F.SAPHIRE %BLUE%×
+ItemDisplay[gly]: %ORANGE%F.TOPAZ %YELLOW%×
+ItemDisplay[skl]: %GREEN%§§ %ORANGE%F.SKULL %TAN%×
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%PERFECT %PURPLE%AMETHYST
 ItemDisplay[gpw]: %ORANGE%PERFECT %WHITE%DIAMOND
