@@ -280,15 +280,15 @@ ItemDisplay[RARE !ID]:
 //Rerolling
 //Grand Charms
 ItemDisplay[MAG cm3 !ID ILVL>77]: %RED%§§ %GREEN%¤ %YELLOW%GRAND %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
-ItemDisplay[MAG cm3 ILVL>77]: %RED%§§ %GREEN%¤ %YELLOW%GRAND %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
+ItemDisplay[MAG cm3 ILVL>77]: %NAME%%WHITE% [L%ILVL%] %RED%!
 ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %RED%§§ %GREEN%¤ %YELLOW%GRAND %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
 
 //Small Charms
 ItemDisplay[MAG cm1 !ID ILVL>89]: %RED%§§ %GREEN%¤ %ORANGE%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
 ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %RED%§§ %GREEN%¤ %ORANGE%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
 ItemDisplay[MAG cm1 !ID ILVL=47]: %RED%§§ %GREEN%¤ %ORANGE%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
-ItemDisplay[MAG cm1 ILVL=47]: %RED%§§ %GREEN%¤ %ORANGE%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
-ItemDisplay[MAG cm1 ILVL>89]: %RED%§§ %GREEN%¤ %ORANGE%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
+ItemDisplay[MAG cm1 ILVL=47]: %NAME%%WHITE% [L%ILVL%] %RED%!
+ItemDisplay[MAG cm1 ILVL>89]: %NAME%%WHITE% [L%ILVL%] %RED%!
 //
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%] %RED%!
 
