@@ -118,9 +118,9 @@ ItemDisplay[xyz]: %TAN%%NAME%
 //Vendor items
 //Value Vendor items
 //SK88=1 =32453 Gold. SK73=1 =32453 Gold.
-ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%($%PRICE%)
-ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%($%PRICE%)
-ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %ORANGE%BIG %GREEN%M%DGREEN%U%GREEN%N%DGREEN%$
+ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %GREEN%M%DGREEN%U%GREEN%N%DGREEN%$
+ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %GREEN%M%DGREEN%U%GREEN%N%DGREEN%$
+ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %GREEN%M%DGREEN%U%GREEN%N%DGREEN%$
 
 //All norm white items 1sox hidden
 ItemDisplay[NMAG SOCK=1 !leg]:
@@ -279,18 +279,18 @@ ItemDisplay[RARE !ID]:
 //CHARMS
 //Rerolling
 //Grand Charms
-ItemDisplay[MAG cm3 !ID ILVL>77]: %GREEN%¤ %YELLOW%Lg. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
-ItemDisplay[MAG cm3 ILVL>77]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %GREEN%¤ %YELLOW%Lg. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
+ItemDisplay[MAG cm3 !ID ILVL>77]: %RED%§§ %GREEN%¤ %YELLOW%GRAND %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
+ItemDisplay[MAG cm3 ILVL>77]: %RED%§§ %GREEN%¤ %YELLOW%GRAND %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
+ItemDisplay[MAG cm3 !ID ILVL<78 ILVL>49]: %RED%§§ %GREEN%¤ %YELLOW%GRAND %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %RED%§§
 
 //Small Charms
-ItemDisplay[MAG cm1 !ID ILVL>89]: %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
-ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
-ItemDisplay[MAG cm1 !ID ILVL=47]: %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤
-ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm1 ILVL>89]: %NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG cm1 !ID ILVL>89]: %ORANGE%%§§ %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %ORANGE%%§§
+ItemDisplay[MAG cm1 !ID ILVL<90 ILVL>47]: %ORANGE%%§§ %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %ORANGE%%§§
+ItemDisplay[MAG cm1 !ID ILVL=47]: %ORANGE%%§§ %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %ORANGE%%§§
+ItemDisplay[MAG cm1 ILVL=47]: %ORANGE%%§§ %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %ORANGE%%§§
+ItemDisplay[MAG cm1 ILVL>89]: %ORANGE%%§§ %GREEN%¤ %RED%Sm. %ORANGE%CHARM %WHITE%[L%ILVL%]%GREEN% ¤ %ORANGE%%§§
 //
-ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
+ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%] %RED%?
 
 //Amulets
 ItemDisplay[MAG amu ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
@@ -321,7 +321,7 @@ ItemDisplay[MAG rin ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
 ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Magic Jewels
-ItemDisplay[MAG !ID jew]: %GOLD%×%YELLOW%×%WHITE%× %GREEN%J%DGREEN%E%GREEN%W%DGREEN%E%GREEN%L %WHITE%×%YELLOW%×%GOLD%×
+ItemDisplay[MAG !ID jew]: %RED%×%WHITE%×%BLUE%× %GREEN%J%DGREEN%E%GREEN%W%DGREEN%E%GREEN%L %BLUE%×%WHITE%×%RED%×
 ItemDisplay[MAG jew]: %GOLD%× %BLUE%%NAME% %GOLD%×
 
 ////UNIQUE ITEMS////
@@ -797,11 +797,11 @@ ItemDisplay[UNI !ID hbl ETH]: %TAN%ETH Bladebuckle
 //String of Ears
 ItemDisplay[UNI !ID zlb !ETH]: %RED%O String of Ears %RED%O
 //String of Ears
-ItemDisplay[UNI !ID zlb ETH]: %RED%ETH String of Ears
+ItemDisplay[UNI !ID zlb ETH]: %RED%ETH String of Ears %GREEN%LOL
 //Razortail
 ItemDisplay[UNI !ID zvb !ETH]: %RED%O Razortail %RED%O
 //Razortail
-ItemDisplay[UNI !ID zvb ETH]: %RED%ETH Razortail
+ItemDisplay[UNI !ID zvb ETH]: %RED%ETH Razortail %GREEN%LOL
 //Gloom's Trap
 ItemDisplay[UNI !ID zmb !ETH]: %RED%Gloom's Trap
 //Gloom's Trap
