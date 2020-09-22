@@ -90,7 +90,7 @@ ItemDisplay[vps CLVL<22]: %GREEN%!%WHITE%STAM
 ItemDisplay[vps CLVL>21]:
 //Hide MAGIC Quivers & Bolts above level 40
 ItemDisplay[aq2 MAG ILVL>50]:
-ItemDisplay[aq2 RARE]: %NAME%
+ItemDisplay[aq2 RARE]: %GREEN%¤%DGREEN%¤%BLACK%¤ %YELLOW%ARROWS %BLACK%¤%DGREEN%¤%GREEN%¤
 ItemDisplay[aq2 UNI]: %NAME%
 ItemDisplay[aq2 SET]: %NAME%
 ItemDisplay[cq2 MAG ILVL>50]:
@@ -125,7 +125,6 @@ ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %GREEN%M%DGREEN%U%GREEN%N%DGR
 //All norm white items 1sox hidden
 ItemDisplay[NMAG SOCK=1 !leg]:
 
-ItemDisplay[RARE aq2 !ID]: %GOLD%¤¤¤ %YELLOW%ARROWS %GOLD%¤¤¤
 
 ////RUNES
 //1-16 
