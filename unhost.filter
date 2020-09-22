@@ -8,7 +8,7 @@ ItemDisplay[GOLD<1000 CLVL<40]:
 ItemDisplay[GOLD<3000 (CLVL>39 AND CLVL<=69)]:
 ItemDisplay[GOLD<10000 CLVL>69]:
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE%70%WHITE%%%GREEN%++
+ItemDisplay[rvl]: %PURPLE%70%WHITE%%%GREEN%+
 ItemDisplay[rvs]: %PURPLE%35%WHITE%%
 ItemDisplay[hp5]: %RED%!%WHITE%H
 ItemDisplay[mp4]: %BLUE%m
@@ -90,6 +90,7 @@ ItemDisplay[vps CLVL<22]: %GREEN%!%WHITE%STAM
 ItemDisplay[vps CLVL>21]:
 //Hide MAGIC Quivers & Bolts above level 40
 ItemDisplay[aq2 MAG ILVL>50]:
+ItemDisplay[aq2 RARE !ID]: %GREEN%¤%DGREEN%¤%BLACK%¤ %YELLOW%ARROWS %BLACK%¤%DGREEN%¤%GREEN%¤
 ItemDisplay[aq2 RARE]: %GREEN%¤%DGREEN%¤%BLACK%¤ %YELLOW%ARROWS %BLACK%¤%DGREEN%¤%GREEN%¤
 ItemDisplay[aq2 UNI]: %NAME%
 ItemDisplay[aq2 SET]: %NAME%
