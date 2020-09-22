@@ -125,6 +125,8 @@ ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %GREEN%M%DGREEN%U%GREEN%N%DGR
 //All norm white items 1sox hidden
 ItemDisplay[NMAG SOCK=1 !leg]:
 
+ItemDisplay[RARE aq2 !ID]: %GOLD%¤¤¤ %YELLOW%ARROWS %GOLD%¤¤¤
+
 ////RUNES
 //1-16 
 ItemDisplay[r01]: %TAN%%RUNENAME% [%RUNENUM%] 
