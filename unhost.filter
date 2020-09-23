@@ -36,8 +36,8 @@ ItemDisplay[toa]: %GOLD%Token %WHITE%of %YELLOW%Absolution
 //PoD Items
 ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %RED%¤%ORANGE%¤%YELLOW%¤%PURPLE% ORB %WHITE%OF %PURPLE%CORRUPTION %YELLOW%¤%ORANGE%¤%RED%¤
-ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
-ItemDisplay[cx7]: %WHITE%¤ %PURPLE%KEY OF CHAOS %WHITE%¤
+ItemDisplay[cx6]: %PURPLE%DIABLO'S SOULSTONE %RED%!
+ItemDisplay[cx7]: %WHITE%¤¤¤ %PURPLE%KEY OF CHAOS %WHITE%¤¤¤
 ItemDisplay[cx8]: %PURPLE%Enchantment Orb
 ItemDisplay[cx9]: %WHITE%¤ %RED%%NAME% %WHITE%¤
 ItemDisplay[ma1]: %WHITE%¤ %RED%%NAME% %WHITE%¤
