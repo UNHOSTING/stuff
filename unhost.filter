@@ -129,11 +129,11 @@ ItemDisplay[NMAG SOCK=1 !leg]:
 
 ////RUNES
 //1-16 
-ItemDisplay[r01]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r02]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r03]: %TAN%%RUNENAME% [%RUNENUM%] 
+ItemDisplay[r01]: %TAN%%RUNENAME% %GRAY%[%RUNENUM%] 
+ItemDisplay[r02]: %TAN%%RUNENAME% %GRAY%[%RUNENUM%] 
+ItemDisplay[r03]: %TAN%%RUNENAME% %GRAY%[%RUNENUM%] 
 ItemDisplay[r04]: %TAN%Nef [%RUNENUM%] %BLACK%[%GRAY%B Gloves%BLACK%]
-ItemDisplay[r05]: %TAN%%RUNENAME% [%RUNENUM%]
+ItemDisplay[r05]: %TAN%%RUNENAME% %GRAY%[%RUNENUM%]
 ItemDisplay[r06]: %TAN%Ith [%RUNENUM%] %BLACK%[%GRAY%C Belt%BLACK%]
 ItemDisplay[r07]: %TAN%Tal [%RUNENUM%] %BLACK%[%GRAY%B Belt%BLACK%]
 ItemDisplay[r08]: %TAN%Ral [%RUNENUM%] %BLACK%[%GRAY%C Amulet%BLACK%] %GREEN%!!
@@ -141,29 +141,29 @@ ItemDisplay[r09]: %TAN%Ort [%RUNENUM%] %BLACK%[%GRAY%HP Gloves%BLACK%]
 ItemDisplay[r10]: %TAN%Thul [%RUNENUM%] %BLACK%[%GRAY%S Amulet%BLACK%]
 ItemDisplay[r11]: %TAN%Amn [%RUNENUM%] %BLACK%[%GRAY%C Ring%BLACK%]
 ItemDisplay[r12]: %TAN%Sol [%RUNENUM%] %BLACK%[%GRAY%B Ring%BLACK%] %GREEN%!!
-ItemDisplay[r13]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r14]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r15]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
-ItemDisplay[r16]: %TAN%%RUNENAME% [%RUNENUM%] 
+ItemDisplay[r13]: %TAN%%RUNENAME% %WHITE%[%RUNENUM%] 
+ItemDisplay[r14]: %TAN%%RUNENAME% %WHITE%[%RUNENUM%] 
+ItemDisplay[r15]: %ORANGE%%RUNENAME% %WHITE%[%RUNENUM%] %BLACK%X
+ItemDisplay[r16]: %TAN%%RUNENAME% %WHITE%[%RUNENUM%] 
 //17-23
-ItemDisplay[r17]: %WHITE%¤%ORANGE%   %RUNENAME% [%RUNENUM%]   %WHITE%¤%ORANGE%
-ItemDisplay[r18]: %WHITE%¤%ORANGE%   %RUNENAME% [%RUNENUM%]   %WHITE%¤%ORANGE%
-ItemDisplay[r19]: %WHITE%¤%ORANGE%   %RUNENAME% [%RUNENUM%]   %WHITE%¤%ORANGE%
-ItemDisplay[r20]: %PURPLE% ¤¤¤ %RED%%RUNENAME% %PURPLE%¤¤¤ %GOLD%[%RUNENUM%]
-ItemDisplay[r21]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤ %RED%%RUNENAME% %YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]
-ItemDisplay[r22]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤ %RED%%RUNENAME% %YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]
-ItemDisplay[r23]: %PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤ %RED%%RUNENAME% %YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]
+ItemDisplay[r17]: %TAN%» %ORANGE%LUM %TAN%« %WHITE%[%RUNENUM%]
+ItemDisplay[r18]: %TAN%» %ORANGE%KO %TAN%« %WHITE%[%RUNENUM%]
+ItemDisplay[r19]: %TAN%» %ORANGE%FAL %TAN%« %WHITE%[%RUNENUM%]
+ItemDisplay[r20]: %RED%» » %PURPLE%§ %ORANGE%LEM %PURPLE%§ %RED%« « %WHITE%[%RUNENUM%]
+ItemDisplay[r21]: %RED%» » %PURPLE%§ %ORANGE%PUL %PURPLE%§ %RED%« « %WHITE%[%RUNENUM%]
+ItemDisplay[r22]: %RED%» » » %PURPLE%§ %ORANGE%UM %PURPLE%§ %RED%« « « %WHITE%[%RUNENUM%]
+ItemDisplay[r23]: %RED%» » » %PURPLE%§ %ORANGE%MAL %PURPLE%§ %RED%« « « %WHITE%[%RUNENUM%]
 //24-33
-ItemDisplay[r24]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤ %RED%%RUNENAME% %GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r25]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤ %RED%%RUNENAME% %GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r26]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤ %RED%%RUNENAME% %BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r27]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤ %RED%%RUNENAME% %WHITE%¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r28]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤¤¤ %RED%%RUNENAME% %WHITE%¤¤¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r29]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤¤¤ %RED%%RUNENAME% %WHITE%¤¤¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r31]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤¤¤ ¤¤¤ %BLACK%¤¤¤ ¤¤¤ %RED%%RUNENAME% %BLACK%¤¤¤ ¤¤¤ %WHITE%¤¤¤ ¤¤¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r31]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤%WHITE%¤¤¤ ¤¤¤ %BLACK%¤¤¤ ¤¤¤ %RED%%RUNENAME% %BLACK%¤¤¤ ¤¤¤ %WHITE%¤¤¤ ¤¤¤%BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r32]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤ %RED%%RUNENAME% %BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
-ItemDisplay[r33]: %RED%!!!!!!!!!! %GREEN%§§%PURPLE% ¤%RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤%BLUE%¤ %RED%%RUNENAME% %BLUE%¤%GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤%PURPLE%¤ %WHITE%[%GREEN%%RUNENUM%%WHITE%]%GREEN% §§ %RED%!!!!!!!!!!
+ItemDisplay[r24]: %RED%» » » %PURPLE%§§ %ORANGE%IST %PURPLE%§§ %RED%« « « %WHITE%[%RUNENUM%]
+ItemDisplay[r25]: %RED%» » » %PURPLE%§§ %ORANGE%GUL %PURPLE%§§ %RED%« « « %WHITE%[%RUNENUM%]
+ItemDisplay[r26]: %RED%» » » » %PURPLE%§§ %ORANGE%VEX %PURPLE%§§ %RED%« « « « %WHITE%[%RUNENUM%] %GREEN%!
+ItemDisplay[r27]: %RED%» » » » %PURPLE%§§ %ORANGE%OHM %PURPLE%§§ %RED%« « « « %WHITE%[%RUNENUM%] %GREEN%!!
+ItemDisplay[r28]: %RED%» » » » » %PURPLE%§§ %ORANGE%LO %PURPLE%§§ %RED%« « « « « %WHITE%[%RUNENUM%] %GREEN%!!
+ItemDisplay[r29]: %RED%» » » » » %PURPLE%§§ %ORANGE%SUR %PURPLE%§§ %RED%« « « « « %WHITE%[%RUNENUM%] %GREEN%!!
+ItemDisplay[r31]: %RED%» » » » » %PURPLE%§§ %ORANGE%BER %PURPLE%§§ %RED%« « « « « %WHITE%[%RUNENUM%] %GREEN%!!!
+ItemDisplay[r31]: %RED%» » » » » %PURPLE%§§ %ORANGE%JAH %PURPLE%§§ %RED%« « « « « %WHITE%[%RUNENUM%] %GREEN%!!!
+ItemDisplay[r32]: %RED%» » » » » %PURPLE%§§ %ORANGE%CHAM %PURPLE%§§ %RED%« « « « « %WHITE%[%RUNENUM%] %GREEN%!
+ItemDisplay[r33]: %RED%» » » » » %PURPLE%§§ %ORANGE%ZOD %PURPLE%§§ %RED%« « « « « %WHITE%[%RUNENUM%] %GREEN%!!
 
 //Gems Chipped
 ItemDisplay[gcv CLVL<20]: chipped amethyst
@@ -1700,12 +1700,12 @@ ItemDisplay[UNI !ID pae ETH]: %RED%ETH Dragonscale
 ItemDisplay[UNI !ID aq2]: %TAN%Quiver
 
 ////Unique Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin OR amu OR jew)]: %PURPLE%  O %RED%%NAME%%PURPLE% O  %PURPLE%
+ItemDisplay[UNI !ID (rin OR amu OR jew)]: %PURPLE%  O %RED%%NAME%%PURPLE% O  %GREEN%GOOD LUCK MATE!!
 
 ////Unique Charms
-ItemDisplay[UNI !ID cm1]: %PURPLE%  O %ORANGE%Annihilus%PURPLE% O  %PURPLE%
-ItemDisplay[UNI !ID cm2]: %PURPLE%  O %ORANGE%Hellfire Torch%PURPLE% O  %PURPLE%
-ItemDisplay[UNI !ID cm3]: %PURPLE%  O %RED%Gheed's Fortune%PURPLE% O  %PURPLE%
+ItemDisplay[UNI !ID cm1]: %PURPLE%  O %ORANGE%Annihilus%PURPLE% O  %GREEN%GOOD LUCK MATE!
+ItemDisplay[UNI !ID cm2]: %PURPLE%  O %ORANGE%Hellfire Torch%PURPLE% O  %GREEN%GOOD LUCK MATE!
+ItemDisplay[UNI !ID cm3]: %PURPLE%  O %RED%Gheed's Fortune%PURPLE% O  %GREEN%!!!
 
 ////SET ITEMS (no rings or amys edited)
 //
